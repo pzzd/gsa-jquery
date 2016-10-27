@@ -4,6 +4,8 @@
 
 The current version as of January 2015 is 2.1.
 
+A working example can be found at http://oi.uchicago.edu/search?GSAq=camel.
+
 The previous version uses the deprecated javascript functions escape() and unescape() and should no longer be used. It's not clear when browsers will no longer support those functions.
 
 ## Adding Google Search Appliance (GSA) jquery plugin to a static site 
@@ -26,7 +28,9 @@ The GSA jquery plugin allows you to load search results in a site template.  No 
 
 #### Set up search results page
 1. Build a page that will show search results.
-2. Link to the following files on the new page.
+
+2. Link to the following files on the new page. Change the paths if you are using local copies of the files.
+
 default style sheet
 ```
 <link href="//webresourcesdev.uchicago.edu/js/jquery.numberpager.css" rel="stylesheet" type="text/css" />
@@ -43,10 +47,12 @@ pagination
 ```
 <script src="//webresourcesdev.uchicago.edu/js/jquery.numberpager.js" type="text/javascript"></script>
 ```
+
 3. Add the following html for search results to load into.
 ```
 <div class="GSAResults"></div><div class="GSAPager numberpager"></div><div class="GSALink"></div>
 ```
+
 4. Add this script.  Update page count and site search variables. 
 ```
 <script>
