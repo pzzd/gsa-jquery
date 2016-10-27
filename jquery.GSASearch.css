@@ -1,0 +1,15 @@
+.GSAResults ul li {
+font-size:12px;
+margin:0px 0 0 0;
+list-style:none;
+padding:5px;
+border-bottom: 1px solid #ccc;
+}
+
+.GSAResults ul li a{
+color: #00f;
+}
+
+.GSAwait {
+margin:100px;
+}
